@@ -11,7 +11,7 @@ NIM : 1102200037
 
 ### 🛠 &nbsp;Built With
 
-[![My Skills](https://skillicons.dev/icons?i=node,vue,tailwind&perline=3)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nodejs,vue,tailwind&perline=3)](https://skillicons.dev)
 
 
 
