@@ -3,7 +3,7 @@
 <!-- ## 👋 &nbsp;Belajar Nodejs dengan Tailwind CSS-->
 
 ### 👨🏻‍💻 &nbsp;About Me
-Nama : Daffa Fakhuddin Arrozy
+Nama : Daffa Fakhuddin Arrozy \n
 NIM : 1102200037
 
 
