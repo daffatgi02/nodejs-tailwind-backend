@@ -5,14 +5,15 @@ const port = 3000;
 
 app.use(express.json());
 app.use(cors());
-
+// mengambil data dari database
 app.get('/sensor/suhu', (req, res) => {
-  const data = [
-    { suhu: 37, waktu: "2023-01-01 11:00" },
-    { suhu: 38, waktu: "2023-01-02 11:30" },
-    { suhu: 40, waktu: "2023-01-03 12:00" }
-  ];
-  res.json(data);
+  connection.query('SELECT id, waktu, suhu FROM sensor_suhu', (error, results) => {
+    if (error) {
+      res.json({ message: 'Gagal mengambil data', error });
+    } else {
+      res.json(results);
+    }
+  });
 });
 
 // mencoba menambahkan db menggunakan sql
