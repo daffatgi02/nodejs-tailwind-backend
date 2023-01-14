@@ -15,5 +15,14 @@ app.get('/sensor/suhu', (req, res) => {
   res.json(data);
 });
 
+// mencoba menambahkan db menggunakan sql
+const mysql = require('mysql');
+const connection = mysql.createConnection({
+  host: '66.118.234.39:',
+  user: 'u40_1fcVHWTpwn',
+  password: '+qzCOyK9=bU6SoJOHzhvlQM!',
+  database: 's40_daffa_db'
+});
+
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);});
